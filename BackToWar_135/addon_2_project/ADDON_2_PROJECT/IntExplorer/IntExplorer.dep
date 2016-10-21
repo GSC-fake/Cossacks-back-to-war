@@ -1,0 +1,77 @@
+# Microsoft Developer Studio Generated Dependency File, included by IntExplorer.mak
+
+.\DataXchange.cpp : \
+	"..\common.h"\
+	"..\CONQUEST_PROJECT\Arc\GSCarch.h"\
+	"..\CONQUEST_PROJECT\Arc\GSCtypes.h"\
+	"..\CONQUEST_PROJECT\Dialogs.h"\
+	"..\CONQUEST_PROJECT\Fastdraw.h"\
+	"..\CONQUEST_PROJECT\Fonts.h"\
+	"..\CONQUEST_PROJECT\gFile.h"\
+	"..\CONQUEST_PROJECT\GP_Draw.h"\
+	"..\CONQUEST_PROJECT\Resfile.h"\
+	".\IntExplorer.h"\
+	".\ParseRQ.h"\
+	
+
+.\DString.cpp : \
+	"..\common.h"\
+	"..\CONQUEST_PROJECT\Arc\GSCarch.h"\
+	"..\CONQUEST_PROJECT\Arc\GSCtypes.h"\
+	"..\CONQUEST_PROJECT\Dialogs.h"\
+	"..\CONQUEST_PROJECT\Fastdraw.h"\
+	"..\CONQUEST_PROJECT\Fonts.h"\
+	"..\CONQUEST_PROJECT\gFile.h"\
+	"..\CONQUEST_PROJECT\GP_Draw.h"\
+	"..\CONQUEST_PROJECT\Resfile.h"\
+	".\IntExplorer.h"\
+	".\ParseRQ.h"\
+	
+
+.\Explore.cpp : \
+	"..\common.h"\
+	"..\CONQUEST_PROJECT\Arc\GSCarch.h"\
+	"..\CONQUEST_PROJECT\Arc\GSCtypes.h"\
+	"..\CONQUEST_PROJECT\Dialogs.h"\
+	"..\CONQUEST_PROJECT\Fastdraw.h"\
+	"..\CONQUEST_PROJECT\Fonts.h"\
+	"..\CONQUEST_PROJECT\gFile.h"\
+	"..\CONQUEST_PROJECT\GP_Draw.h"\
+	"..\CONQUEST_PROJECT\Resfile.h"\
+	".\IntExplorer.h"\
+	".\ParseRQ.h"\
+	
+
+.\FnDefine.cpp : \
+	"..\common.h"\
+	"..\CONQUEST_PROJECT\Arc\GSCarch.h"\
+	"..\CONQUEST_PROJECT\Arc\GSCtypes.h"\
+	"..\CONQUEST_PROJECT\Dialogs.h"\
+	"..\CONQUEST_PROJECT\Fastdraw.h"\
+	"..\CONQUEST_PROJECT\Fonts.h"\
+	"..\CONQUEST_PROJECT\gFile.h"\
+	"..\CONQUEST_PROJECT\GP_Draw.h"\
+	"..\CONQUEST_PROJECT\Resfile.h"\
+	".\IntExplorer.h"\
+	
+
+.\IntExplorer.cpp : \
+	".\StdAfx.h"\
+	
+
+.\ParseRQ.cpp : \
+	"..\common.h"\
+	"..\CONQUEST_PROJECT\Arc\GSCarch.h"\
+	"..\CONQUEST_PROJECT\Arc\GSCtypes.h"\
+	"..\CONQUEST_PROJECT\Dialogs.h"\
+	"..\CONQUEST_PROJECT\Fastdraw.h"\
+	"..\CONQUEST_PROJECT\Fonts.h"\
+	"..\CONQUEST_PROJECT\gFile.h"\
+	"..\CONQUEST_PROJECT\GP_Draw.h"\
+	"..\CONQUEST_PROJECT\Resfile.h"\
+	".\ParseRQ.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

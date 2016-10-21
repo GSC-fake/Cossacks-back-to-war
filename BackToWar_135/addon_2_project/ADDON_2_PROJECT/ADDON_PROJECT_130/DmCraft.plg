@@ -1,0 +1,693 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ddexam - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPAD.tmp" with contents
+[
+/nologo /ML /W3 /GX /Zi /Od /D "WIN32" /D "_WINDOWS" /Fp"Release/DmCraft.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Lines.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\menu.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Brigade.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Megapolis.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewAI.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SafeNet.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DBars.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DMapEd.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DSurf.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddini.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Dialogs.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\DrawForms.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Fastdraw.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\GP_Draw.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Graphs.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\GVClass.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Hint.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\IconTool.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Masks.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Mouse_X.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MousZone.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Video.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Build.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddex1.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Economy.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Groups.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\LoadSave.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\mapa.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Motion.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Multi.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Nation.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Nature.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewUpgrade.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\OnWater.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\RealWater.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Recorder.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\River.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SaveNewMap.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Timing.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Transport.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Upgrade.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveZone.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\AntiBug.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Report.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\UnSyncro.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\GameSound.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Navorots.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Nuclear.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ChkInet.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Danger.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\HiBars.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Mine.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewILogin.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Select.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ShipTrace.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\testserver.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Waves.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPAD.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPAE.tmp" with contents
+[
+/nologo /ML /W3 /GX /Zi /O2 /D "WIN32" /D "_WINDOWS" /Fp"Release/DmCraft.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\StrategyResearch.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DRandMap.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\VirtScr.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ZBuffer.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MapSprites.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewMon.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\path.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\TopoGraf.cpp"
+"C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPAE.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPAF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib libc.lib oldnames.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/dmcr.pdb" /map:"Release/dmcr.map" /debug /machine:I386 /nodefaultlib /out:"D:\Exchange\OLIMP\dmcr.exe" /FIXED:NO /MAPINFO:LINES /MAPINFO:EXPORTS 
+.\Release\Lines.obj
+.\Release\menu.obj
+.\Release\MoveToXY.obj
+.\Release\Resfile.obj
+.\Release\GSCarch.obj
+.\Release\GSCset.obj
+.\Release\gText.obj
+.\Release\isiMasks.obj
+.\Release\MPlayer.obj
+.\Release\PeerClass.obj
+.\Release\Brigade.obj
+.\Release\EinfoClass.obj
+.\Release\Megapolis.obj
+.\Release\NewAI.obj
+.\Release\SafeNet.obj
+.\Release\StrategyResearch.obj
+.\Release\3DBars.obj
+.\Release\3DGraph.obj
+.\Release\3DMapEd.obj
+.\Release\3DRandMap.obj
+.\Release\3DSurf.obj
+.\Release\ArchTool.obj
+.\Release\bmptool.obj
+.\Release\Ddini.obj
+.\Release\Dialogs.obj
+.\Release\DrawForms.obj
+.\Release\Fastdraw.obj
+.\Release\fog.obj
+.\Release\GP_Draw.obj
+.\Release\Graphs.obj
+.\Release\GVClass.obj
+.\Release\Hint.obj
+.\Release\IconTool.obj
+.\Release\Interface.obj
+.\Release\Masks.obj
+.\Release\Mouse_X.obj
+.\Release\MousZone.obj
+.\Release\Video.obj
+.\Release\VirtScr.obj
+.\Release\ZBuffer.obj
+.\Release\Build.obj
+.\Release\Ddex1.obj
+.\Release\Economy.obj
+.\Release\Fractal.obj
+.\Release\Groups.obj
+.\Release\LoadSave.obj
+.\Release\mapa.obj
+.\Release\MapSprites.obj
+.\Release\Motion.obj
+.\Release\Multi.obj
+.\Release\Nation.obj
+.\Release\Nature.obj
+.\Release\NewMon.obj
+.\Release\NewUpgrade.obj
+.\Release\OnWater.obj
+.\Release\path.obj
+.\Release\RealWater.obj
+.\Release\Recorder.obj
+.\Release\River.obj
+.\Release\SaveNewMap.obj
+.\Release\Timing.obj
+.\Release\TopoGraf.obj
+.\Release\Transport.obj
+.\Release\Upgrade.obj
+.\Release\walls.obj
+.\Release\Weapon.obj
+.\Release\ActiveScenary.obj
+.\Release\ActiveZone.obj
+.\Release\InteractiveScenario.obj
+.\Release\AntiBug.obj
+.\Release\Report.obj
+.\Release\UnRar.obj
+.\Release\UnSyncro.obj
+.\Release\Cdirsnd.obj
+.\Release\Cwave.obj
+.\Release\DeviceCD.obj
+.\Release\GameSound.obj
+.\Release\TMixer.obj
+.\Release\Navorots.obj
+.\Release\Nuclear.obj
+.\Release\darray.obj
+.\Release\gbucket.obj
+.\Release\gstats.obj
+.\Release\hashtable.obj
+.\Release\md5c.obj
+.\Release\nonport.obj
+.\Release\IR_Main.obj
+.\Release\ChkInet.obj
+.\Release\ConstStr.obj
+.\Release\Danger.obj
+.\Release\ExConst.obj
+.\Release\ExtDial.obj
+.\Release\HiBars.obj
+.\Release\HttpComm.obj
+.\Release\Mine.obj
+.\Release\NewILogin.obj
+.\Release\Select.obj
+.\Release\SelProp.obj
+.\Release\ShipTrace.obj
+.\Release\stRecog.obj
+.\Release\StringsHash.obj
+.\Release\testserver.obj
+.\Release\Waves.obj
+.\Release\Script1.res
+.\Peer.lib
+.\tntFileIO.lib
+.\ProTest.lib
+.\Winmm.lib
+.\Ddraw.lib
+.\dsound.lib
+.\dplayx.lib
+.\Pinger.lib
+..\IChat\Debug\ichat.lib
+..\CommCore.lib
+.\InetRaiting\GP.lib
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPAF.tmp"
+<h3>Output Window</h3>
+Compiling...
+Lines.cpp
+menu.cpp
+MPlayer.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\PeerClass.h(1) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(165) : warning C4101: 'CSORT' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(363) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(495) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(508) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(509) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(514) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1074) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1410) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1438) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1490) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1491) : warning C4553: '==' : operator has no effect; did you intend '='?
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1504) : warning C4018: '>' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1527) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1538) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1539) : warning C4553: '==' : operator has no effect; did you intend '='?
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1554) : warning C4018: '>' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1585) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1585) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1586) : warning C4553: '==' : operator has no effect; did you intend '='?
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1618) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1618) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1619) : warning C4553: '==' : operator has no effect; did you intend '='?
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1689) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1754) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1754) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1755) : warning C4553: '==' : operator has no effect; did you intend '='?
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1791) : warning C4101: 'x' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(2286) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(2527) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(3380) : warning C4018: '==' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(3489) : warning C4018: '==' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(3561) : warning C4018: '==' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(3657) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\MPlayer.cpp(1793) : warning C4700: local variable 'y' used without having been initialized
+Brigade.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Brigade.cpp(2115) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Brigade.cpp(2116) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Brigade.cpp(2195) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Brigade.cpp(2196) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Brigade.cpp(3865) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Brigade.cpp(4083) : warning C4101: 'NInLine' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Brigade.cpp(4084) : warning C4101: 'NSLines' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Brigade.cpp(4705) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+EinfoClass.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+Megapolis.cpp
+NewAI.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewAI.cpp(251) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+SafeNet.cpp
+3DBars.cpp
+3DGraph.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp(706) : warning C4731: 'PrecPrepareToRender' : frame pointer register 'ebp' modified by inline assembly code
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp(726) : warning C4731: 'PrecPrepareToRender' : frame pointer register 'ebp' modified by inline assembly code
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp(738) : warning C4731: 'PrecPrepareToRender' : frame pointer register 'ebp' modified by inline assembly code
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp(757) : warning C4731: 'PrecPrepareToRender' : frame pointer register 'ebp' modified by inline assembly code
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp(762) : warning C4731: 'PrecPrepareToRender' : frame pointer register 'ebp' modified by inline assembly code
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp(804) : warning C4731: 'AbsolutePrecPrepareToRender' : frame pointer register 'ebp' modified by inline assembly code
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp(824) : warning C4731: 'AbsolutePrecPrepareToRender' : frame pointer register 'ebp' modified by inline assembly code
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp(836) : warning C4731: 'AbsolutePrecPrepareToRender' : frame pointer register 'ebp' modified by inline assembly code
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp(855) : warning C4731: 'AbsolutePrecPrepareToRender' : frame pointer register 'ebp' modified by inline assembly code
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DGraph.cpp(860) : warning C4731: 'AbsolutePrecPrepareToRender' : frame pointer register 'ebp' modified by inline assembly code
+3DMapEd.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DMapEd.cpp(398) : warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DMapEd.cpp(399) : warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+3DSurf.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DSurf.cpp(67) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DSurf.cpp(78) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DSurf.cpp(78) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DSurf.cpp(78) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DSurf.cpp(99) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DSurf.cpp(131) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+Ddini.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddini.cpp(56) : warning C4091: 'typedef ' : ignored on left of 'struct zzz' when no variable is declared
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddini.cpp(376) : warning C4101: 'ddscaps' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddini.cpp(496) : warning C4101: 'ddscaps' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddini.cpp(576) : warning C4101: 'ddscaps' : unreferenced local variable
+Dialogs.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Dialogs.cpp(1956) : warning C4018: '>' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Dialogs.cpp(2022) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Dialogs.cpp(2048) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Dialogs.cpp(2245) : warning C4305: '=' : truncation from 'const int' to 'bool'
+DrawForms.cpp
+Fastdraw.cpp
+fog.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(114) : warning C4102: 'ProcessFinished' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(114) : warning C4102: 'lab7' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(114) : warning C4102: 'lab6' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(114) : warning C4102: 'ioo' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(169) : warning C4102: 'ProcessFinished' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(169) : warning C4102: 'lab7' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(169) : warning C4102: 'lab6' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(169) : warning C4102: 'ioo' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(225) : warning C4102: 'ProcessFinished' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(225) : warning C4102: 'lab7' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(225) : warning C4102: 'lab6' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(225) : warning C4102: 'ioo' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(472) : warning C4101: 'q' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(472) : warning C4101: 'r' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(772) : warning C4101: 'q' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(772) : warning C4101: 'r' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(961) : warning C4101: 'q' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\fog.cpp(961) : warning C4101: 'r' : unreferenced local variable
+GP_Draw.cpp
+Graphs.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Graphs.cpp(127) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Graphs.cpp(129) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+GVClass.cpp
+Hint.cpp
+IconTool.cpp
+Interface.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(39) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\PeerClass.h(1) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(40) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(429) : warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(430) : warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(431) : warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(432) : warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(2378) : warning C4101: 'cc3' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(2630) : warning C4101: 'ccc' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(3600) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(3601) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(3611) : warning C4552: '+' : operator has no effect; expected operator with side-effect
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(3360) : warning C4101: 'ccc1' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4141) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4184) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4239) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4280) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4365) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4447) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4459) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4500) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4546) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4622) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4654) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4713) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4730) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4791) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4816) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4831) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4832) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4868) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4888) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5089) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5112) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5301) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5374) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5499) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5520) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5607) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5610) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5618) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5621) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5627) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(4964) : warning C4101: 'ccc' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(5056) : warning C4101: 'ccc' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(6138) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(8424) : warning C4102: 'stg' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(9127) : warning C4390: ';' : empty controlled statement found; is this the intent?
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(9131) : warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(11460) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(13291) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(13413) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(13439) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(13461) : warning C4018: '>' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(13602) : warning C4101: 'cc2' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(13673) : warning C4101: 'cc2' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(15076) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(15084) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(15254) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(15261) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Interface.cpp(15281) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+Masks.cpp
+Mouse_X.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Mouse_X.cpp(223) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MousZone.cpp
+Video.cpp
+Build.cpp
+Ddex1.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddex1.cpp(405) : warning C4101: 'BytesPerSector' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddex1.cpp(406) : warning C4101: 'NumberOfFreeClusters' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddex1.cpp(407) : warning C4101: 'TotalNumberOfClusters' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddex1.cpp(404) : warning C4101: 'SectorsPerCluster' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddex1.cpp(1005) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddex1.cpp(869) : warning C4101: 'rc' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddex1.cpp(868) : warning C4101: 'ps' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Ddex1.cpp(2131) : warning C4101: 'CPATH' : unreferenced local variable
+Economy.cpp
+Groups.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Groups.cpp(635) : warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Groups.cpp(638) : warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Groups.cpp(643) : warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Groups.cpp(761) : warning C4244: 'initializing' : conversion from 'unsigned short' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Groups.cpp(783) : warning C4244: 'initializing' : conversion from 'short' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Groups.cpp(808) : warning C4244: '=' : conversion from 'short' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Groups.cpp(999) : warning C4101: 'MID' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Groups.cpp(1000) : warning C4101: 'rr' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Groups.cpp(1001) : warning C4101: 'OB' : unreferenced local variable
+LoadSave.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\LoadSave.cpp(2647) : warning C4101: 'y' : unreferenced local variable
+mapa.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\mapa.cpp(986) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\mapa.cpp(1332) : warning C4390: ';' : empty controlled statement found; is this the intent?
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\mapa.cpp(1761) : warning C4101: 'cc4' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\mapa.cpp(3235) : warning C4102: 'PrInfo' : unreferenced label
+Motion.cpp
+Multi.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Multi.cpp(24) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Multi.cpp(25) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\PeerClass.h(1) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Multi.cpp(186) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Multi.cpp(532) : warning C4101: 'mm' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Multi.cpp(1160) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Multi.cpp(1168) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Multi.cpp(1798) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Multi.cpp(2106) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Nation.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Nation.cpp(146) : warning C4101: 'tmp' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Nation.cpp(680) : warning C4800: 'unsigned short' : forcing value to bool 'true' or 'false' (performance warning)
+Nature.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Nature.cpp(163) : warning C4101: 'z4' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Nature.cpp(330) : warning C4101: 'cc' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Nature.cpp(334) : warning C4101: 'cc' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Nature.cpp(584) : warning C4101: 'y' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Nature.cpp(584) : warning C4101: 'n' : unreferenced local variable
+NewUpgrade.cpp
+OnWater.cpp
+RealWater.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\RealWater.cpp(231) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\RealWater.cpp(233) : warning C4244: '+=' : conversion from 'double' to 'short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\RealWater.cpp(493) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\RealWater.cpp(538) : warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\RealWater.cpp(567) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\RealWater.cpp(657) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+Recorder.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Recorder.cpp(179) : warning C4102: 'AGAIN' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Recorder.cpp(784) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Recorder.cpp(263) : warning C4715: 'RecordGame::Extract' : not all control paths return a value
+River.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\River.cpp(73) : warning C4244: 'initializing' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+SaveNewMap.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SaveNewMap.cpp(518) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SaveNewMap.cpp(931) : warning C4101: 'i' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SaveNewMap.cpp(976) : warning C4101: 'i' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SaveNewMap.cpp(999) : warning C4101: 'i' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SaveNewMap.cpp(1493) : warning C4101: 'ccc' : unreferenced local variable
+Timing.cpp
+Transport.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Transport.cpp(81) : warning C4244: 'initializing' : conversion from 'unsigned short' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Transport.cpp(166) : warning C4101: 'DIREC' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Transport.cpp(1151) : warning C4101: 'xm' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Transport.cpp(1151) : warning C4101: 'ym' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Transport.cpp(1266) : warning C4101: 'yy' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Transport.cpp(1266) : warning C4101: 'xx' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Transport.cpp(188) : warning C4715: 'ParkWaterNewMonster' : not all control paths return a value
+Upgrade.cpp
+walls.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(261) : warning C4305: '=' : truncation from 'const int' to 'bool'
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(550) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(1051) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(1098) : warning C4553: '==' : operator has no effect; did you intend '='?
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(1630) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(1828) : warning C4101: 'dist' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(1906) : warning C4101: 'dx' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(1906) : warning C4101: 'dy' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(2001) : warning C4101: 'dx' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(2001) : warning C4101: 'dy' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(2122) : warning C4101: 'dist' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(2153) : warning C4101: 'dx' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(2153) : warning C4101: 'dy' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(2212) : warning C4101: 'dx' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\walls.cpp(2212) : warning C4101: 'dy' : unreferenced local variable
+ActiveScenary.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\PeerClass.h(1) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EInfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EInfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(2488) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(3412) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(3415) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(3418) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(3421) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(3424) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(3427) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(3430) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(4424) : warning C4101: 'LockN' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(4552) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ActiveScenary.cpp(5095) : warning C4806: '!=' : unsafe operation: no value of type 'bool' promoted to type 'const int' can equal the given constant
+ActiveZone.cpp
+AntiBug.cpp
+Report.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Report.cpp(64) : warning C4129: 'ò' : unrecognized character escape sequence
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Report.cpp(303) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Report.cpp(339) : warning C4101: 'ccc' : unreferenced local variable
+UnSyncro.cpp
+GameSound.cpp
+Navorots.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Navorots.cpp(27) : warning C4101: 'x0' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Navorots.cpp(27) : warning C4101: 'x1' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Navorots.cpp(27) : warning C4101: 'y0' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Navorots.cpp(27) : warning C4101: 'y1' : unreferenced local variable
+Nuclear.cpp
+IR_Main.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(39) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\..\PeerClass.h(1) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(40) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\..\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\..\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(370) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(973) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(1891) : warning C4101: 'ccc' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(1926) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(1982) : warning C4101: 'ccc' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(2286) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(3141) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(3442) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(3698) : warning C4101: 'URL' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(3951) : warning C4018: '<' : signed/unsigned mismatch
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(3936) : warning C4101: 'ccc' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\InetRaiting\IR_Main.cpp(3765) : warning C4715: 'TestHash1' : not all control paths return a value
+ChkInet.cpp
+Danger.cpp
+HiBars.cpp
+Mine.cpp
+NewILogin.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewILogin.cpp(39) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\PeerClass.h(1) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewILogin.cpp(40) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+Select.cpp
+SelProp.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(647) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(405) : warning C4101: 'str' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(404) : warning C4101: 'OC' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(739) : warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1136) : warning C4101: 'VS' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1135) : warning C4101: 'p' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1135) : warning C4101: 'q' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1134) : warning C4101: 'str' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1256) : warning C4101: 'VS' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1255) : warning C4101: 'fid' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1255) : warning C4101: 'p' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1255) : warning C4101: 'q' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1255) : warning C4101: 'spr' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1254) : warning C4101: 'str' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1251) : warning C4101: 'OC' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1210) : warning C4101: 'sxt' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1404) : warning C4806: '&' : unsafe operation: no value of type 'bool' promoted to type 'const int' can equal the given constant
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1406) : warning C4806: '&' : unsafe operation: no value of type 'bool' promoted to type 'const int' can equal the given constant
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1302) : warning C4101: 'MID' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1397) : warning C4101: 'str' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1394) : warning C4101: 'OC' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1524) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\SelProp.cpp(1538) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+ShipTrace.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ShipTrace.cpp(277) : warning C4102: 'lpp21' : unreferenced label
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\ShipTrace.cpp(323) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+stRecog.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(174) : warning C4101: 'cam' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(176) : warning C4101: 'maxdam' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(176) : warning C4101: 'mindam' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(1553) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(826) : warning C4101: 'parm4' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(826) : warning C4101: 'parm5' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(826) : warning C4101: 'parm6' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(827) : warning C4101: 'parm7' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(828) : warning C4101: 'gold' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(827) : warning C4101: 'parm8' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(821) : warning C4101: 'gg1' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(827) : warning C4101: 'parm10' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(827) : warning C4101: 'parm9' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(825) : warning C4101: 'knd' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(827) : warning C4101: 'parm11' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(828) : warning C4101: 'maxdam' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(826) : warning C4101: 'parm0' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(828) : warning C4101: 'mindam' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(1427) : warning C4101: 'am' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(1687) : warning C4101: 'j' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\stRecog.cpp(1687) : warning C4101: 'zz1' : unreferenced local variable
+testserver.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\testserver.cpp(39) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\PeerClass.h(1) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\testserver.cpp(40) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+Waves.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Waves.cpp(78) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+Compiling...
+StrategyResearch.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+3DRandMap.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DRandMap.cpp(1344) : warning C4101: 'BS' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DRandMap.cpp(1466) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\3DRandMap.cpp(3616) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+VirtScr.cpp
+ZBuffer.cpp
+MapSprites.cpp
+NewMon.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\EinfoClass.h(16) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewMon.cpp(7777) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewMon.cpp(9181) : warning C4244: 'initializing' : conversion from 'unsigned short' to 'char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewMon.cpp(9409) : warning C4800: 'unsigned short' : forcing value to bool 'true' or 'false' (performance warning)
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewMon.cpp(9160) : warning C4101: 'x0' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewMon.cpp(9160) : warning C4101: 'y0' : unreferenced local variable
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewMon.cpp(11289) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewMon.cpp(11757) : warning C4390: ';' : empty controlled statement found; is this the intent?
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\NewMon.cpp(12986) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+path.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\path.cpp(481) : warning C4035: 'CheckPt' : no return value
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\path.cpp(615) : warning C4035: 'CheckVLine' : no return value
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\path.cpp(2680) : warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\path.cpp(483) : warning C4715: 'MotionField::CheckPt' : not all control paths return a value
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\path.cpp(617) : warning C4715: 'MotionField::CheckVLine' : not all control paths return a value
+TopoGraf.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\TopoGraf.cpp(1684) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\TopoGraf.cpp(1685) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+Weapon.cpp
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(143) : warning C4390: ';' : empty controlled statement found; is this the intent?
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(267) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(524) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(526) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(551) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(607) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(610) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(716) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(734) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(737) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+C:\OLD_PROJECTS_BACKUP\BackToWar_135\addon_2_project\ADDON_2_PROJECT\ADDON_PROJECT_130\Weapon.cpp(771) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+   Creating library D:\Exchange\OLIMP\dmcr.lib and object D:\Exchange\OLIMP\dmcr.exp
+LINK : warning LNK4049: locally defined symbol "_free" imported
+LINK : warning LNK4049: locally defined symbol "_srand" imported
+LINK : warning LNK4049: locally defined symbol "_malloc" imported
+LINK : warning LNK4049: locally defined symbol "_strncmp" imported
+LINK : warning LNK4049: locally defined symbol "_atoi" imported
+LINK : warning LNK4049: locally defined symbol "_memmove" imported
+LINK : warning LNK4049: locally defined symbol "_realloc" imported
+LINK : warning LNK4049: locally defined symbol "_strstr" imported
+LINK : warning LNK4049: locally defined symbol "_strdup" imported
+LINK : warning LNK4049: locally defined symbol "_strncpy" imported
+LINK : warning LNK4049: locally defined symbol "_rand" imported
+LINK : warning LNK4049: locally defined symbol "__strlwr" imported
+LINK : warning LNK4049: locally defined symbol "_sprintf" imported
+LINK : warning LNK4049: locally defined symbol "_fopen" imported
+LINK : warning LNK4049: locally defined symbol "_fclose" imported
+LINK : warning LNK4049: locally defined symbol "_fprintf" imported
+LINK : warning LNK4049: locally defined symbol "_toupper" imported
+LINK : warning LNK4049: locally defined symbol "_strchr" imported
+LINK : warning LNK4049: locally defined symbol "_time" imported
+LINK : warning LNK4049: locally defined symbol "__strdup" imported
+
+
+
+<h3>Results</h3>
+dmcr.exe - 0 error(s), 390 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>ddexam</ProjectName>
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{60A71346-B66F-41FB-B1F0-7BCC149B8650}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\DmCraft.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\DmCraft.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0419</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\DmCraft.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <OutputFile>D:\Exchange\OLIMP\dmcr.exe</OutputFile>
+      <AdditionalOptions> /FIXED:NO  /MAPINFO:LINES  /MAPINFO:EXPORTS </AdditionalOptions>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;ws2_32.lib;libc.lib;oldnames.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Ddini.h" />
+    <ClInclude Include="Dplay.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="Lines.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="mgraph.h" />
+    <ClInclude Include="mode.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Dpchat.h" />
+    <ClInclude Include="Dplobby.h" />
+    <ClInclude Include="fog.h" />
+    <ClInclude Include="Multipl.h" />
+    <ClInclude Include="Nucl.h" />
+    <ClInclude Include="Resfile.h" />
+    <ClInclude Include="gFile.h" />
+    <ClInclude Include="Arc\GSCarch.h" />
+    <ClInclude Include="Arc\GSCset.h" />
+    <ClInclude Include="Arc\GSCtypes.h" />
+    <ClInclude Include="GSINC.h" />
+    <ClInclude Include="Arc\isiMasks.h" />
+    <ClInclude Include="Chat\chat.h" />
+    <ClInclude Include="CommCore.h" />
+    <ClInclude Include="CEngine\goaceng.h" />
+    <ClInclude Include="peer.h" />
+    <ClInclude Include="PeerClass.h" />
+    <ClInclude Include="Pinger.h" />
+    <ClInclude Include="EinfoClass.h" />
+    <ClInclude Include="Megapolis.h" />
+    <ClInclude Include="NewAI.h" />
+    <ClInclude Include="Safety.h" />
+    <ClInclude Include="StrategyResearch.h" />
+    <ClInclude Include="Towers.h" />
+    <ClInclude Include="3DBars.h" />
+    <ClInclude Include="3DGraph.h" />
+    <ClInclude Include="3DMapEd.h" />
+    <ClInclude Include="3DRandMap.h" />
+    <ClInclude Include="3DSurf.h" />
+    <ClInclude Include="Masks.h" />
+    <ClInclude Include="ArchTool.h" />
+    <ClInclude Include="bmptool.h" />
+    <ClInclude Include="Curve.h" />
+    <ClInclude Include="Dialogs.h" />
+    <ClInclude Include="DrawForm.h" />
+    <ClInclude Include="Fastdraw.h" />
+    <ClInclude Include="Fonts.h" />
+    <ClInclude Include="GP_Draw.h" />
+    <ClInclude Include="Graphs.h" />
+    <ClInclude Include="Icons.h" />
+    <ClInclude Include="IconTool.h" />
+    <ClInclude Include="mouse.h" />
+    <ClInclude Include="Video.h" />
+    <ClInclude Include="VirtScreen.h" />
+    <ClInclude Include="ZBuffer.h" />
+    <ClInclude Include="LoadSave.h" />
+    <ClInclude Include="MapDiscr.h" />
+    <ClInclude Include="MapSprites.h" />
+    <ClInclude Include="MPlayer.h" />
+    <ClInclude Include="Nature.h" />
+    <ClInclude Include="NewMon.h" />
+    <ClInclude Include="NewUpgrade.h" />
+    <ClInclude Include="Path.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="RealWater.h" />
+    <ClInclude Include="Recorder.h" />
+    <ClInclude Include="TopoGraf.h" />
+    <ClInclude Include="Transport.h" />
+    <ClInclude Include="Upgrade.h" />
+    <ClInclude Include="walls.h" />
+    <ClInclude Include="WeaponID.h" />
+    <ClInclude Include="ActiveScenary.h" />
+    <ClInclude Include="ActiveZone.h" />
+    <ClInclude Include="AntiBug.h" />
+    <ClInclude Include="Unrar.h" />
+    <ClInclude Include="UnSyncro.h" />
+    <ClInclude Include="Cdirsnd.h" />
+    <ClInclude Include="Cwave.h" />
+    <ClInclude Include="DeviceCD.h" />
+    <ClInclude Include="GSound.h" />
+    <ClInclude Include="TMixer.h" />
+    <ClInclude Include="protest.h" />
+    <ClInclude Include="InetRaiting\darray.h" />
+    <ClInclude Include="InetRaiting\stats\gbucket.h" />
+    <ClInclude Include="InetRaiting\stats\gpersist.h" />
+    <ClInclude Include="InetRaiting\stats\gstats.h" />
+    <ClInclude Include="InetRaiting\hashtable.h" />
+    <ClInclude Include="InetRaiting\md5.h" />
+    <ClInclude Include="InetRaiting\nonport.h" />
+    <ClInclude Include="InetRaiting\gp.h" />
+    <ClInclude Include="IR.h" />
+    <ClInclude Include="ConstStr.h" />
+    <ClInclude Include="CTables.h" />
+    <ClInclude Include="Http\HttpComm.h" />
+    <ClInclude Include="Dialogs\NewLogin.h" />
+    <ClInclude Include="Sort.h" />
+    <ClInclude Include="StringHash.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lines.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="MoveToXY.cpp" />
+    <ClCompile Include="Resfile.cpp" />
+    <ClCompile Include="Arc\GSCarch.cpp" />
+    <ClCompile Include="Arc\GSCset.cpp" />
+    <ClCompile Include="gText.cpp" />
+    <ClCompile Include="Arc\isiMasks.cpp" />
+    <ClCompile Include="MPlayer.cpp" />
+    <ClCompile Include="PeerClass.cpp" />
+    <ClCompile Include="Brigade.cpp" />
+    <ClCompile Include="EinfoClass.cpp" />
+    <ClCompile Include="Megapolis.cpp" />
+    <ClCompile Include="NewAI.cpp" />
+    <ClCompile Include="SafeNet.cpp" />
+    <ClCompile Include="StrategyResearch.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="3DBars.cpp" />
+    <ClCompile Include="3DGraph.cpp" />
+    <ClCompile Include="3DMapEd.cpp" />
+    <ClCompile Include="3DRandMap.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="3DSurf.cpp" />
+    <ClCompile Include="ArchTool.cpp" />
+    <ClCompile Include="bmptool.cpp" />
+    <ClCompile Include="Ddini.cpp" />
+    <ClCompile Include="Dialogs.cpp" />
+    <ClCompile Include="DrawForms.cpp" />
+    <ClCompile Include="Fastdraw.cpp" />
+    <ClCompile Include="fog.cpp" />
+    <ClCompile Include="GP_Draw.cpp" />
+    <ClCompile Include="Graphs.cpp" />
+    <ClCompile Include="GVClass.cpp" />
+    <ClCompile Include="Hint.cpp" />
+    <ClCompile Include="IconTool.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Masks.cpp" />
+    <ClCompile Include="Mouse_X.cpp" />
+    <ClCompile Include="MousZone.cpp" />
+    <ClCompile Include="Video.cpp" />
+    <ClCompile Include="VirtScr.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="ZBuffer.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="Build.cpp" />
+    <ClCompile Include="Ddex1.cpp" />
+    <ClCompile Include="Economy.cpp" />
+    <ClCompile Include="Fractal.cpp" />
+    <ClCompile Include="Groups.cpp" />
+    <ClCompile Include="LoadSave.cpp" />
+    <ClCompile Include="mapa.cpp" />
+    <ClCompile Include="MapSprites.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="Motion.cpp" />
+    <ClCompile Include="Multi.cpp" />
+    <ClCompile Include="Nation.cpp" />
+    <ClCompile Include="Nature.cpp" />
+    <ClCompile Include="NewMon.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="NewUpgrade.cpp" />
+    <ClCompile Include="OnWater.cpp" />
+    <ClCompile Include="path.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="RealWater.cpp" />
+    <ClCompile Include="Recorder.cpp" />
+    <ClCompile Include="River.cpp" />
+    <ClCompile Include="SaveNewMap.cpp" />
+    <ClCompile Include="Timing.cpp" />
+    <ClCompile Include="TopoGraf.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="Transport.cpp" />
+    <ClCompile Include="Upgrade.cpp" />
+    <ClCompile Include="walls.cpp" />
+    <ClCompile Include="Weapon.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="ActiveScenary.cpp" />
+    <ClCompile Include="ActiveZone.cpp" />
+    <ClCompile Include="InteractiveScenario.cpp" />
+    <ClCompile Include="AntiBug.cpp" />
+    <ClCompile Include="Report.cpp" />
+    <ClCompile Include="UnRar.cpp" />
+    <ClCompile Include="UnSyncro.cpp" />
+    <ClCompile Include="Cdirsnd.cpp" />
+    <ClCompile Include="Cwave.cpp" />
+    <ClCompile Include="DeviceCD.cpp" />
+    <ClCompile Include="GameSound.cpp" />
+    <ClCompile Include="TMixer.cpp" />
+    <ClCompile Include="Navorots.cpp" />
+    <ClCompile Include="Nuclear.cpp" />
+    <ClCompile Include="InetRaiting\darray.c" />
+    <ClCompile Include="InetRaiting\stats\gbucket.c" />
+    <ClCompile Include="InetRaiting\stats\gstats.c" />
+    <ClCompile Include="InetRaiting\hashtable.c" />
+    <ClCompile Include="InetRaiting\md5c.c" />
+    <ClCompile Include="InetRaiting\nonport.c" />
+    <ClCompile Include="InetRaiting\IR_Main.cpp" />
+    <ClCompile Include="ChkInet.cpp" />
+    <ClCompile Include="ConstStr.cpp" />
+    <ClCompile Include="Danger.cpp" />
+    <ClCompile Include="ExConst.cpp" />
+    <ClCompile Include="ExtDial.cpp" />
+    <ClCompile Include="HiBars.cpp" />
+    <ClCompile Include="Http\HttpComm.cpp" />
+    <ClCompile Include="Mine.cpp" />
+    <ClCompile Include="NewILogin.cpp" />
+    <ClCompile Include="Select.cpp" />
+    <ClCompile Include="SelProp.cpp" />
+    <ClCompile Include="ShipTrace.cpp" />
+    <ClCompile Include="stRecog.cpp" />
+    <ClCompile Include="StringsHash.cpp" />
+    <ClCompile Include="testserver.cpp" />
+    <ClCompile Include="Waves.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Austria.nds" />
+    <CustomBuild Include="complex.lst" />
+    <CustomBuild Include="complex.rsr" />
+    <CustomBuild Include="england.nds" />
+    <CustomBuild Include="holelist.LST" />
+    <CustomBuild Include="holelist.rsr" />
+    <CustomBuild Include="Nres.dat" />
+    <CustomBuild Include="Orcs.nds" />
+    <CustomBuild Include="Orcs.scr" />
+    <CustomBuild Include="Peoples.nds" />
+    <CustomBuild Include="stonlist.LST" />
+    <CustomBuild Include="stonlist.rsr" />
+    <CustomBuild Include="textures.lst" />
+    <CustomBuild Include="Treelist.lst" />
+    <CustomBuild Include="treelist.rsr" />
+    <CustomBuild Include="Walls.lst" />
+    <CustomBuild Include="Weapon.ads" />
+    <CustomBuild Include="Weapon.nds" />
+    <CustomBuild Include="Adet.md" />
+    <CustomBuild Include="aka.md" />
+    <CustomBuild Include="arc.md" />
+    <CustomBuild Include="Ardt.md" />
+    <CustomBuild Include="art.md" />
+    <CustomBuild Include="Artt.md" />
+    <CustomBuild Include="ba1.md" />
+    <CustomBuild Include="bae.md" />
+    <CustomBuild Include="bar.md" />
+    <CustomBuild Include="bas.md" />
+    <CustomBuild Include="Bat.md" />
+    <CustomBuild Include="bfg.md" />
+    <CustomBuild Include="Brt.md" />
+    <CustomBuild Include="Cal.md" />
+    <CustomBuild Include="Cau.md" />
+    <CustomBuild Include="Ceb.md" />
+    <CustomBuild Include="Cef.md" />
+    <CustomBuild Include="Ceh.md" />
+    <CustomBuild Include="Cei.md" />
+    <CustomBuild Include="Center_UR.md" />
+    <CustomBuild Include="Cep.md" />
+    <CustomBuild Include="cer.md" />
+    <CustomBuild Include="Ces.md" />
+    <CustomBuild Include="Cet.md" />
+    <CustomBuild Include="Ceu.md" />
+    <CustomBuild Include="Che.md" />
+    <CustomBuild Include="Cpl.md" />
+    <CustomBuild Include="Crp.md" />
+    <CustomBuild Include="Csw.md" />
+    <CustomBuild Include="cur.md" />
+    <CustomBuild Include="cyb.md" />
+    <CustomBuild Include="Dal.md" />
+    <CustomBuild Include="Dau.md" />
+    <CustomBuild Include="dip.md" />
+    <CustomBuild Include="Dipt.md" />
+    <CustomBuild Include="dkaz.md" />
+    <CustomBuild Include="dob.md" />
+    <CustomBuild Include="Dof.md" />
+    <CustomBuild Include="Dog.md" />
+    <CustomBuild Include="Doi.md" />
+    <CustomBuild Include="Dop.md" />
+    <CustomBuild Include="Dos.md" />
+    <CustomBuild Include="Dot.md" />
+    <CustomBuild Include="Dpl.md" />
+    <CustomBuild Include="Dpr.md" />
+    <CustomBuild Include="Dr2.md" />
+    <CustomBuild Include="dra.md" />
+    <CustomBuild Include="Drf.md" />
+    <CustomBuild Include="Dsw.md" />
+    <CustomBuild Include="Ens.md" />
+    <CustomBuild Include="Env.md" />
+    <CustomBuild Include="eud.md" />
+    <CustomBuild Include="evr.md" />
+    <CustomBuild Include="evro.md" />
+    <CustomBuild Include="Field1.md" />
+    <CustomBuild Include="fir.md" />
+    <CustomBuild Include="Freg.md" />
+    <CustomBuild Include="Gal.md" />
+    <CustomBuild Include="get.md" />
+    <CustomBuild Include="Gnf.md" />
+    <CustomBuild Include="grass1.md" />
+    <CustomBuild Include="Gre.md" />
+    <CustomBuild Include="grr1.md" />
+    <CustomBuild Include="gu2.md" />
+    <CustomBuild Include="gul.md" />
+    <CustomBuild Include="gun.md" />
+    <CustomBuild Include="Gus.md" />
+    <CustomBuild Include="imp.md" />
+    <CustomBuild Include="Jia.md" />
+    <CustomBuild Include="k2z.md" />
+    <CustomBuild Include="Kaa.md" />
+    <CustomBuild Include="kaz.md" />
+    <CustomBuild Include="kaz1.md" />
+    <CustomBuild Include="kni.md" />
+    <CustomBuild Include="Kof.md" />
+    <CustomBuild Include="kom.md" />
+    <CustomBuild Include="kon.md" />
+    <CustomBuild Include="konush.md" />
+    <CustomBuild Include="kor.md" />
+    <CustomBuild Include="kos.md" />
+    <CustomBuild Include="Kot.md" />
+    <CustomBuild Include="Kpo.md" />
+    <CustomBuild Include="kr3.md" />
+    <CustomBuild Include="kre.md" />
+    <CustomBuild Include="Krp.md" />
+    <CustomBuild Include="Krs.md" />
+    <CustomBuild Include="Krt.md" />
+    <CustomBuild Include="kru.md" />
+    <CustomBuild Include="kst.md" />
+    <CustomBuild Include="Ksw.md" />
+    <CustomBuild Include="Kut.md" />
+    <CustomBuild Include="kuz.md" />
+    <CustomBuild Include="Kvt.md" />
+    <CustomBuild Include="kzk.md" />
+    <CustomBuild Include="L2t.md" />
+    <CustomBuild Include="Link.md" />
+    <CustomBuild Include="lo2.md" />
+    <CustomBuild Include="lo3.md" />
+    <CustomBuild Include="Lo4.md" />
+    <CustomBuild Include="Lod.md" />
+    <CustomBuild Include="lok.md" />
+    <CustomBuild Include="los.md" />
+    <CustomBuild Include="Lpf.md" />
+    <CustomBuild Include="Lpt.md" />
+    <CustomBuild Include="Lre.md" />
+    <CustomBuild Include="mac.md" />
+    <CustomBuild Include="Mam.md" />
+    <CustomBuild Include="man.md" />
+    <CustomBuild Include="Mel.md" />
+    <CustomBuild Include="meln.md" />
+    <CustomBuild Include="meln2.md" />
+    <CustomBuild Include="Met.md" />
+    <CustomBuild Include="Mit.md" />
+    <CustomBuild Include="mor.md" />
+    <CustomBuild Include="Mua.md" />
+    <CustomBuild Include="mue.md" />
+    <CustomBuild Include="Mun.md" />
+    <CustomBuild Include="Mup.md" />
+    <CustomBuild Include="mus.md" />
+    <CustomBuild Include="Mut.md" />
+    <CustomBuild Include="Of2.md" />
+    <CustomBuild Include="ofi.md" />
+    <CustomBuild Include="Oft.md" />
+    <CustomBuild Include="Paa.md" />
+    <CustomBuild Include="pe2.md" />
+    <CustomBuild Include="pie.md" />
+    <CustomBuild Include="Pik.md" />
+    <CustomBuild Include="Pip.md" />
+    <CustomBuild Include="pir.md" />
+    <CustomBuild Include="pis.md" />
+    <CustomBuild Include="pla.md" />
+    <CustomBuild Include="Prs.md" />
+    <CustomBuild Include="Psm.md" />
+    <CustomBuild Include="pul.md" />
+    <CustomBuild Include="pus.md" />
+    <CustomBuild Include="ric.md" />
+    <CustomBuild Include="rin.md" />
+    <CustomBuild Include="Rit.md" />
+    <CustomBuild Include="roc.md" />
+    <CustomBuild Include="rst.md" />
+    <CustomBuild Include="Rua.md" />
+    <CustomBuild Include="rud.md" />
+    <CustomBuild Include="rus.md" />
+    <CustomBuild Include="Sag.md" />
+    <CustomBuild Include="Sak.md" />
+    <CustomBuild Include="Sam.md" />
+    <CustomBuild Include="sar.md" />
+    <CustomBuild Include="sce.md" />
+    <CustomBuild Include="sh2.md" />
+    <CustomBuild Include="sha.md" />
+    <CustomBuild Include="She.md" />
+    <CustomBuild Include="Skl1.md" />
+    <CustomBuild Include="Skl2.md" />
+    <CustomBuild Include="Skl3.md" />
+    <CustomBuild Include="Skl4.md" />
+    <CustomBuild Include="sp2.md" />
+    <CustomBuild Include="spi.md" />
+    <CustomBuild Include="Sti.md" />
+    <CustomBuild Include="str.md" />
+    <CustomBuild Include="strel1.md" />
+    <CustomBuild Include="strelec.md" />
+    <CustomBuild Include="Sv2.md" />
+    <CustomBuild Include="Sve.md" />
+    <CustomBuild Include="Svu.md" />
+    <CustomBuild Include="Swp.md" />
+    <CustomBuild Include="Swr.md" />
+    <CustomBuild Include="ta2.md" />
+    <CustomBuild Include="tag.md" />
+    <CustomBuild Include="Tak.md" />
+    <CustomBuild Include="tar.md" />
+    <CustomBuild Include="Tat.md" />
+    <CustomBuild Include="Tkp.md" />
+    <CustomBuild Include="to2.md" />
+    <CustomBuild Include="tow.md" />
+    <CustomBuild Include="tra.md" />
+    <CustomBuild Include="ukd.md" />
+    <CustomBuild Include="uks.md" />
+    <CustomBuild Include="Vga.md" />
+    <CustomBuild Include="Vga2.md" />
+    <CustomBuild Include="wakk_kr.md" />
+    <CustomBuild Include="wall_ev.md" />
+    <CustomBuild Include="wall_kr.md" />
+    <CustomBuild Include="wall_ukr.md" />
+    <CustomBuild Include="Yah.md" />
+    <CustomBuild Include="zom.md" />
+    <CustomBuild Include="mode.dat" />
+    <CustomBuild Include="Nations.lst" />
+    <CustomBuild Include="Const.lst" />
+    <CustomBuild Include="WaveList.lst" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SoundList.txt" />
+    <Text Include="Iconlist.txt" />
+    <Text Include="MDHelp.txt" />
+    <Text Include="nmlist.txt" />
+    <Text Include="ScriptHelp.txt" />
+    <Text Include="tcomp.TXT" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Peer.lib" />
+    <Library Include="tntFileIO.lib" />
+    <Library Include="ProTest.lib" />
+    <Library Include="Winmm.lib" />
+    <Library Include="Ddraw.lib" />
+    <Library Include="dsound.lib" />
+    <Library Include="dplayx.lib" />
+    <Library Include="Pinger.lib" />
+    <Library Include="..\IChat\Debug\ichat.lib" />
+    <Library Include="..\CommCore.lib" />
+    <Library Include="InetRaiting\GP.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dump">
+      <UniqueIdentifier>{f1e84265-a1ca-4ce0-b643-984decd8509e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{ff7da584-6051-42be-827a-9866615c977d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="datas">
+      <UniqueIdentifier>{b905481e-4dcf-4a51-a4c8-87df1b1cf598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="New Monsters Discription">
+      <UniqueIdentifier>{319780e3-cf60-4223-af36-676594b7cca7}</UniqueIdentifier>
+      <Extensions>md</Extensions>
+    </Filter>
+    <Filter Include="Arc">
+      <UniqueIdentifier>{cbfe5c8f-f951-4e92-9a46-d001e5178d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSpy">
+      <UniqueIdentifier>{d5bebce3-81af-445f-acc4-bb21c61f061b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{15159aea-4365-4069-b437-04620df93526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3D Engine">
+      <UniqueIdentifier>{0513216c-b972-4841-90d0-b0cc11084189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics&amp;DirectX">
+      <UniqueIdentifier>{b88e5998-1617-444d-bbcf-b2b4b6246255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{7c01fb2f-8501-4dab-8a5f-fab78ae0a307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenario">
+      <UniqueIdentifier>{130fd77f-02e2-4567-ba13-e9836d22a7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{f773232c-1113-4895-bab5-48841dc251df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{3ac20d61-7ad1-473c-959b-fc8cd157cdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB">
+      <UniqueIdentifier>{846a24c9-af3f-400c-a9a1-c91a358aec6a}</UniqueIdentifier>
+      <Extensions>*.lib</Extensions>
+    </Filter>
+    <Filter Include="OLD FILES">
+      <UniqueIdentifier>{0bd2f1ba-30c5-4e7e-816b-0e13e6425802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internet Rating&amp;Profiles">
+      <UniqueIdentifier>{b03fc2c8-18d1-44ca-a3d5-e7234a5118ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internet Rating&amp;Profiles\Stats">
+      <UniqueIdentifier>{8781ce6b-a0a1-4207-96ad-2edfbdbc6f09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ddini.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Dplay.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Lines.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="mgraph.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Dpchat.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Dplobby.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fog.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Multipl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Nucl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resfile.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gFile.h">
+      <Filter>Arc</Filter>
+    </ClInclude>
+    <ClInclude Include="Arc\GSCarch.h">
+      <Filter>Arc</Filter>
+    </ClInclude>
+    <ClInclude Include="Arc\GSCset.h">
+      <Filter>Arc</Filter>
+    </ClInclude>
+    <ClInclude Include="Arc\GSCtypes.h">
+      <Filter>Arc</Filter>
+    </ClInclude>
+    <ClInclude Include="GSINC.h">
+      <Filter>Arc</Filter>
+    </ClInclude>
+    <ClInclude Include="Arc\isiMasks.h">
+      <Filter>Arc</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat\chat.h">
+      <Filter>GameSpy</Filter>
+    </ClInclude>
+    <ClInclude Include="CommCore.h">
+      <Filter>GameSpy</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngine\goaceng.h">
+      <Filter>GameSpy</Filter>
+    </ClInclude>
+    <ClInclude Include="peer.h">
+      <Filter>GameSpy</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerClass.h">
+      <Filter>GameSpy</Filter>
+    </ClInclude>
+    <ClInclude Include="Pinger.h">
+      <Filter>GameSpy</Filter>
+    </ClInclude>
+    <ClInclude Include="EinfoClass.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Megapolis.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="NewAI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Safety.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyResearch.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Towers.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="3DBars.h">
+      <Filter>3D Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="3DGraph.h">
+      <Filter>3D Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="3DMapEd.h">
+      <Filter>3D Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="3DRandMap.h">
+      <Filter>3D Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="3DSurf.h">
+      <Filter>3D Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Masks.h">
+      <Filter>3D Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchTool.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="bmptool.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawForm.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Fastdraw.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="GP_Draw.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphs.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Icons.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="IconTool.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Video.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtScreen.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ZBuffer.h">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSave.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDiscr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSprites.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MPlayer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Nature.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMon.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NewUpgrade.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RealWater.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Recorder.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TopoGraf.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Transport.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="walls.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponID.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveScenary.h">
+      <Filter>Scenario</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveZone.h">
+      <Filter>Scenario</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiBug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Unrar.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="UnSyncro.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Cdirsnd.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Cwave.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceCD.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="GSound.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="TMixer.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="protest.h">
+      <Filter>OLD FILES</Filter>
+    </ClInclude>
+    <ClInclude Include="InetRaiting\darray.h">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="InetRaiting\stats\gbucket.h">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="InetRaiting\stats\gpersist.h">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="InetRaiting\stats\gstats.h">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="InetRaiting\hashtable.h">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="InetRaiting\md5.h">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="InetRaiting\nonport.h">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="InetRaiting\gp.h">
+      <Filter>Internet Rating&amp;Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="IR.h">
+      <Filter>Internet Rating&amp;Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstStr.h" />
+    <ClInclude Include="CTables.h" />
+    <ClInclude Include="Http\HttpComm.h" />
+    <ClInclude Include="Dialogs\NewLogin.h" />
+    <ClInclude Include="Sort.h" />
+    <ClInclude Include="StringHash.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lines.cpp">
+      <Filter>Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToXY.cpp">
+      <Filter>Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="Resfile.cpp">
+      <Filter>Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="Arc\GSCarch.cpp">
+      <Filter>Arc</Filter>
+    </ClCompile>
+    <ClCompile Include="Arc\GSCset.cpp">
+      <Filter>Arc</Filter>
+    </ClCompile>
+    <ClCompile Include="gText.cpp">
+      <Filter>Arc</Filter>
+    </ClCompile>
+    <ClCompile Include="Arc\isiMasks.cpp">
+      <Filter>Arc</Filter>
+    </ClCompile>
+    <ClCompile Include="MPlayer.cpp">
+      <Filter>GameSpy</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerClass.cpp">
+      <Filter>GameSpy</Filter>
+    </ClCompile>
+    <ClCompile Include="Brigade.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="EinfoClass.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Megapolis.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="NewAI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeNet.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyResearch.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="3DBars.cpp">
+      <Filter>3D Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="3DGraph.cpp">
+      <Filter>3D Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="3DMapEd.cpp">
+      <Filter>3D Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="3DRandMap.cpp">
+      <Filter>3D Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="3DSurf.cpp">
+      <Filter>3D Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchTool.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="bmptool.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Ddini.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawForms.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Fastdraw.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="fog.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="GP_Draw.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphs.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="GVClass.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Hint.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="IconTool.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Masks.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse_X.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="MousZone.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Video.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtScr.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="ZBuffer.cpp">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Build.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Ddex1.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Economy.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Fractal.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Groups.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSave.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="mapa.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSprites.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Nation.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Nature.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMon.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NewUpgrade.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="OnWater.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="path.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RealWater.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Recorder.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="River.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveNewMap.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Timing.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TopoGraf.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Transport.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrade.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="walls.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveScenary.cpp">
+      <Filter>Scenario</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveZone.cpp">
+      <Filter>Scenario</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractiveScenario.cpp">
+      <Filter>Scenario</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiBug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Report.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="UnRar.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="UnSyncro.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Cdirsnd.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Cwave.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceCD.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="TMixer.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Navorots.cpp">
+      <Filter>OLD FILES</Filter>
+    </ClCompile>
+    <ClCompile Include="Nuclear.cpp">
+      <Filter>OLD FILES</Filter>
+    </ClCompile>
+    <ClCompile Include="InetRaiting\darray.c">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="InetRaiting\stats\gbucket.c">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="InetRaiting\stats\gstats.c">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="InetRaiting\hashtable.c">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="InetRaiting\md5c.c">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="InetRaiting\nonport.c">
+      <Filter>Internet Rating&amp;Profiles\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="InetRaiting\IR_Main.cpp">
+      <Filter>Internet Rating&amp;Profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ChkInet.cpp" />
+    <ClCompile Include="ConstStr.cpp" />
+    <ClCompile Include="Danger.cpp" />
+    <ClCompile Include="ExConst.cpp" />
+    <ClCompile Include="ExtDial.cpp" />
+    <ClCompile Include="HiBars.cpp" />
+    <ClCompile Include="Http\HttpComm.cpp" />
+    <ClCompile Include="Mine.cpp" />
+    <ClCompile Include="NewILogin.cpp" />
+    <ClCompile Include="Select.cpp" />
+    <ClCompile Include="SelProp.cpp" />
+    <ClCompile Include="ShipTrace.cpp" />
+    <ClCompile Include="stRecog.cpp" />
+    <ClCompile Include="StringsHash.cpp" />
+    <ClCompile Include="testserver.cpp" />
+    <ClCompile Include="Waves.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SoundList.txt">
+      <Filter>datas</Filter>
+    </Text>
+    <Text Include="Iconlist.txt">
+      <Filter>New Monsters Discription</Filter>
+    </Text>
+    <Text Include="MDHelp.txt">
+      <Filter>New Monsters Discription</Filter>
+    </Text>
+    <Text Include="nmlist.txt">
+      <Filter>New Monsters Discription</Filter>
+    </Text>
+    <Text Include="ScriptHelp.txt">
+      <Filter>OLD FILES</Filter>
+    </Text>
+    <Text Include="tcomp.TXT" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Peer.lib">
+      <Filter>GameSpy</Filter>
+    </Library>
+    <Library Include="tntFileIO.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="ProTest.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="Winmm.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="Ddraw.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="dsound.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="dplayx.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="Pinger.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="..\IChat\Debug\ichat.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="..\CommCore.lib">
+      <Filter>LIB</Filter>
+    </Library>
+    <Library Include="InetRaiting\GP.lib">
+      <Filter>Internet Rating&amp;Profiles</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc">
+      <Filter>OLD FILES</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Austria.nds">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="complex.lst">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="complex.rsr">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="england.nds">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="holelist.LST">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="holelist.rsr">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Nres.dat">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Orcs.nds">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Orcs.scr">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Peoples.nds">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="stonlist.LST">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="stonlist.rsr">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="textures.lst">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Treelist.lst">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="treelist.rsr">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Walls.lst">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Weapon.ads">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Weapon.nds">
+      <Filter>datas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Adet.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="aka.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="arc.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Ardt.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="art.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Artt.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ba1.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bae.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bar.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bas.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bat.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bfg.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Brt.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Cal.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Cau.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Ceb.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Cef.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Ceh.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Cei.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Center_UR.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Cep.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cer.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Ces.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Cet.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Ceu.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Che.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Cpl.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Crp.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Csw.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cur.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cyb.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dal.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dau.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dip.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dipt.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dkaz.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dob.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dof.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dog.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Doi.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dop.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dos.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dot.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dpl.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dpr.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dr2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dra.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Drf.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dsw.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Ens.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Env.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="eud.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="evr.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="evro.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Field1.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fir.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Freg.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Gal.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="get.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Gnf.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="grass1.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Gre.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="grr1.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gu2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gul.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gun.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Gus.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="imp.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Jia.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="k2z.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kaa.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kaz.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kaz1.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kni.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kof.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kom.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kon.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="konush.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kor.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kos.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kot.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kpo.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kr3.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kre.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Krp.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Krs.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Krt.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kru.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kst.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Ksw.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kut.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kuz.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Kvt.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kzk.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="L2t.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Link.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lo2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lo3.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Lo4.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Lod.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lok.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="los.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Lpf.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Lpt.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Lre.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mac.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mam.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="man.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mel.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="meln.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="meln2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Met.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mit.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mor.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mua.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mue.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mun.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mup.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mus.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mut.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Of2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ofi.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Oft.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Paa.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pe2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pie.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Pik.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Pip.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pir.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pis.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pla.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Prs.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Psm.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pul.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pus.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ric.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rin.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Rit.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="roc.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rst.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Rua.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rud.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rus.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Sag.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Sak.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Sam.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sar.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sce.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sh2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sha.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="She.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Skl1.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Skl2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Skl3.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Skl4.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sp2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="spi.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Sti.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="str.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="strel1.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="strelec.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Sv2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Sve.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Svu.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Swp.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Swr.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ta2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tag.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Tak.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tar.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Tat.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Tkp.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="to2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tow.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tra.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ukd.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uks.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Vga.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Vga2.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wakk_kr.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wall_ev.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wall_kr.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wall_ukr.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Yah.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="zom.md">
+      <Filter>New Monsters Discription</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mode.dat">
+      <Filter>Graphics&amp;DirectX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Nations.lst">
+      <Filter>Engine</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Const.lst" />
+    <CustomBuild Include="WaveList.lst" />
+  </ItemGroup>
+</Project>

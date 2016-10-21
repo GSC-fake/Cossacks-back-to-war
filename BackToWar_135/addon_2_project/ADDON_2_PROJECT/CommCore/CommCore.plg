@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CommCore - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe -lib /nologo /out:"..\CommCore.lib"  .\Debug\CommCore.obj .\Debug\CommInet.obj .\Debug\CommInit.obj .\Debug\CommPeers.obj .\Debug\CommQueue.obj .\Debug\CommRaw.obj .\Debug\CommRecv.obj .\Debug\CommServerList.obj "
+<h3>Output Window</h3>
+Creating library...
+
+
+
+<h3>Results</h3>
+CommCore.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
